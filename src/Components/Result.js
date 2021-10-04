@@ -48,7 +48,7 @@ const Result = () => {
     </React.Fragment>
     </ThemeProvider>
     );
-    else return <Link to="/"><p><br/>Carregando... Comece pela Home!</p></Link>;
+    else return null
 };
 
 /* CSS */
