@@ -1,6 +1,6 @@
 
 <h1 align="center">
-    <img alt="Projeto_Jonthan" title="#Projeto_Jonthan" src="./img/capa_github.png" />
+    <img alt="Projeto_Jonthan" title="#Projeto_Jonthan" src="./src/img/capa_github.png" />
 </h1>
 
 <h4 align="center"> 
@@ -46,14 +46,14 @@ O layout da aplicação:
 ### Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-<img alt="Luka" src="./img/result_luke.png" width="400px">
-<img alt="Darth" src="./img/result_darth.png" width="400px">
+<img alt="Luka" src="./src/img/result_luke.png" width="400px">
+<img alt="Darth" src="./src/img/result_darth.png" width="400px">
 </p>
 
 ### Mobile
 
 <p align="center">
-  <img alt="Projeto_Jonthan" title="#Projeto_Jonthan" src="./img/result_mobile.png" width="200px">
+  <img alt="Projeto_Jonthan" title="#Projeto_Jonthan" src="./src/img/result_mobile.png" width="200px">
   </p
 
 ---
