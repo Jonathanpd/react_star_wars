@@ -1,70 +1,127 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img alt="Projeto_Jonthan" title="#Projeto_Jonthan" src="./img/capa_github.png" />
+</h1>
 
-## Available Scripts
+<h4 align="center"> 
+	Projeto Star Wars | iClinic 🚀 Em Desenvolvimento!
+</h4>
 
-In the project directory, you can run:
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-layout">Layout</a> • 
+ <a href="#-como-executar-o-projeto">Como executar</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-dev">Dev</a> • 
+ <a href="#user-content--licença">Licença</a>
+</p>
+
+## 💻 Sobre o projeto
+
+🚀 Desafio - Donsumir a SWAPI (Uma famosa api do Star Wars). Fazer duas requisições ao mesmo tempo através do clique em um botão:
+
+https://swapi.dev/api/people/1 -> Recupera informações do lado da luz, seu mestre será Luke Skywalker.
+https://swapi.dev/api/people/4 -> Recupera informações do lado sombrio, seu mestre será Darth Vader.
+
+Com base no tempo de resposta do serviço e no seu alinhamento da “força”, aquela requisição que retornar os dados primeiro irá determinar quem será seu mestre e em que lado da força você está alinhado..
+
+---
+
+## ⚙️ Funcionalidades
+
+- [x] O botão "start" e "choose your path again, Padawan", deve chamar as duas requisições e retornar a primeira resposta.
+- [x] Na segunda tela do mestre, a imagem deverá ser exibida no centro da tela, juntamente com seu nome e cor de fundo correspondente (preta para o lado sombrio e amarelo para o lado da luz).
+- [x] Ainda nessa segunda tela, deve existir um link para voltar para a página de boas vindas do início do desafio.
+- [x] O botão para escolher novamente seu caminho na força apresentado na segunda tela, deve ser desativado quando uma requisição estiver em andamento e também apresentar um feedback visual para o usuário.
+- [x] Na versão mobile, responsiva em tela menores que 800px. Também foi alterada a ordem de apresentação do nome do mestre, botão para chamar novamente a força e imagem.
+- [ ] Testes que façam sentido para garantir a experiência do usuário.
+
+---
+
+## 🎨 Layout
+
+O layout da aplicação:
+
+### Web
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+<img alt="Luka" src="./img/result_luke.png" width="400px">
+<img alt="Darth" src="./img/result_darth.png" width="400px">
+</p>
+
+### Mobile
+
+<p align="center">
+  <img alt="Projeto_Jonthan" title="#Projeto_Jonthan" src="./img/result_mobile.png" width="200px">
+  </p
+
+---
+
+## 🚀 Como executar o projeto
+
+💡 No diretório do projeto, você pode executar:
+
+### `yarn install` 
+ou 
+### `npm install`
+
+Depois:
 
 ### `yarn start`
+Para executar o aplicativo no modo de desenvolvimento.
+Abra http://localhost:3000 para visualizá-lo no navegador.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+A página será recarregada se você fizer edições.
+Você também verá quaisquer erros de lint no console.
 
 ### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Inicia o executor de teste.
 
 ### `yarn build`
+Compila o aplicativo para produção | build.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Pré-requisitos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-### `yarn eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🛠 Tecnologia
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### **Website**  ([React](https://reactjs.org/)  +  [Styled Components](https://styled-components.com/))
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- **[React Router Dom](https://www.npmjs.com/package/react-router-dom)**
 
-## Learn More
+- Fonte:  **[Montserrat](https://fonts.google.com/specimen/Montserrat)**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🦸 Dev
 
-### Code Splitting
+<a href="https://www.linkedin.com/in/jonathanpd/">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/34203527?v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Jonathan Santos (Jonathan PD)</b></sub></a>
+ <br />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jonathanpd/)](https://www.linkedin.com/in/jonathanpd/) 
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📝 Licença
 
-### Making a Progressive Web App
+Este projeto esta sobe a licença [MIT](./LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Feito com ❤️ por Jonathan PD 👋🏽 [Entre em contato!](https://www.linkedin.com/in/jonathanpd/)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+##  Versões do README
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Português 🇧🇷](./README.md)  |  [English](./README-en.md)
