@@ -1,0 +1,33 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* base css */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    --type-first: Montserrat, Roboto, sans-serif;
+    font-family: var(--type-first);
+}
+
+h1, h2, p {
+    margin: 0px;
+}
+
+button {
+    font-family: var(--type-first);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Limit Width for UltraWide and Retina Screens */
+#root { 
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    height: 90vh;
+}

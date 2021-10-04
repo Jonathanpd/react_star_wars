@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+//import React, { useState } from 'react';
+import React from 'react';
+import './App.scss';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './Components/Home';
+import Result from './Components/Result';
+import useFetchForce from './Components/useFetchForce';
+import UserContext from './Components/UserContext';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    const { request, force, loading, error } = useFetchForce();    
+    return (
+        <UserContext.Provider value={{ request, force, loading, error }}>
+        <React.Fragment>
+            <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/result" element={<Result />} />
+            </Routes>
+            </BrowserRouter>
+        </React.Fragment>
+        </UserContext.Provider>
+    );
 }
 
 export default App;
