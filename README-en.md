@@ -109,7 +109,7 @@ The following tools were used in the construction of the project:
  <sub><b>Jonathan Santos (Jonathan PD)</b></sub></a>
  <br />
 
-[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jonathanpd/)](https://www.linkedin.com/in/jonathanpd/) 
+[![Linkedin Badge](https://img.shields.io/badge/-Jonathan-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jonathanpd/)](https://www.linkedin.com/in/jonathanpd/) 
 
 ---
 
