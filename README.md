@@ -30,7 +30,7 @@ Com base no tempo de resposta do serviço e no seu alinhamento da “força”, 
 
 ## ⚙️ Funcionalidades
 
-- [x] O botão "start" e "choose your path again, Padawan", deve chamar as duas requisições e retornar a primeira resposta.
+- [x] Os botões "start" e "choose your path again, Padawan", devem chamar as duas requisições e retornar a primeira resposta.
 - [x] Na segunda tela do mestre, a imagem deverá ser exibida no centro da tela, juntamente com seu nome e cor de fundo correspondente (preta para o lado sombrio e amarelo para o lado da luz).
 - [x] Ainda nessa segunda tela, deve existir um link para voltar para a página de boas vindas do início do desafio.
 - [x] O botão para escolher novamente seu caminho na força apresentado na segunda tela, deve ser desativado quando uma requisição estiver em andamento e também apresentar um feedback visual para o usuário.
