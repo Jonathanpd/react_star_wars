@@ -48,7 +48,7 @@ const Result = () => {
     </React.Fragment>
     </ThemeProvider>
     );
-    else return <Link to="/"><p><br/>Comece pela Home!</p></Link>;
+    else return <Link to="/"><p><br/>Carregando... Comece pela Home!</p></Link>;
 };
 
 /* CSS */
@@ -86,7 +86,7 @@ cursor: pointer;
     }
     @media(max-width: 800px) {
         order: 3;
-        margin: 0;
+        margin: 0 0 30px 0;
         max-width: 100%;
         padding: 20px 40px;
         height: auto;
