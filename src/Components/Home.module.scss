@@ -22,6 +22,7 @@
             flex-direction: column;
             align-items: center;
             font-size: 3.5rem;
+            margin-top: 30px;
         }
         @media(max-width: 300px) {
             font-size: 2.5rem;
@@ -56,7 +57,7 @@
         color: #FFF;
         border-radius: 10px;
         @media(max-width: 300px) {
-            margin-top: 80px;
+            margin-top: 30px;
         }
     }
 }
