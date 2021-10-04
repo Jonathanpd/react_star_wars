@@ -9,10 +9,10 @@
 
 <p align="center">
  <a href="#-about-the-project">About</a> •
- <a href="#-functionalities">Functionalities</a> •
+ <a href="#user-content-️-functionalities">Functionalities</a> •
  <a href="#-layout">Layout</a> • 
- <a href="#-how-to-run">How to run</a> • 
- <a href="#-technologies">Technologies</a> • 
+ <a href="#user-content-️-how-to-run">How to run</a> • 
+ <a href="#user-content-️-technologies">Technologies</a> • 
  <a href="#-dev">Dev</a> • 
  <a href="#user-content--license">License</a>
 </p>
