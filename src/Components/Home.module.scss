@@ -1,3 +1,5 @@
+$blue-color: #2C97D1;
+
 .welcome {
     &__wrap {
         width: 100%;
@@ -13,7 +15,7 @@
     &__h1 {
         font-size: 4.5rem;
         font-weight: normal;
-        color: #2C97D1;
+        color: $blue-color;
         max-width: 100%;
         text-align: center;
         @media(max-width: 800px) {
@@ -36,13 +38,13 @@
         font-weight: normal;
         letter-spacing: 0.35rem;
         text-transform: uppercase;
-        color: #2C97D1;
+        color: $blue-color;
         margin-top: 7px;
         text-align: center;
     }
     &__btn {
         margin-top: 162px;
-        background-color: #2C97D1;
+        background-color: $blue-color;
         padding: 5px 20px;
         max-width: 190px;
         width: 100%;
