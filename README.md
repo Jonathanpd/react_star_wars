@@ -19,6 +19,8 @@
 
 ## 💻 Sobre o projeto
 
+Link deploy: https://react-star-wars-jonathanpd.vercel.app/
+
 🚀 Desafio - Donsumir a SWAPI (Uma famosa api do Star Wars). Fazer duas requisições ao mesmo tempo através do clique em um botão:
 
 https://swapi.dev/api/people/1 -> Recupera informações do lado da luz, seu mestre será Luke Skywalker.
