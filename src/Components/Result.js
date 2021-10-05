@@ -84,6 +84,11 @@ cursor: pointer;
         opacity: 0.5;
         cursor: progress;
     }
+    &:hover {
+        top: -1px;
+        box-shadow: 0 2px 2px #2b2b2b0f;
+        position: relative;
+    }
     @media(max-width: 800px) {
         order: 3;
         margin: 0 0 30px 0;
