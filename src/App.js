@@ -2,8 +2,8 @@
 import React from 'react';
 import './App.scss';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './Components/Home';
-import Result from './Components/Result';
+import Home from './Components/Home/Home';
+import Result from './Components/Result/Result';
 import useFetchForce from './Components/useFetchForce';
 import UserContext from './Components/UserContext';
 
