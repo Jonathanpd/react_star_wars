@@ -84,7 +84,7 @@ cursor: pointer;
         opacity: 0.5;
         cursor: progress;
     }
-    &:hover {
+    &:not([disabled]):hover {
         top: -1px;
         box-shadow: 0 2px 2px #2b2b2b0f;
         position: relative;
