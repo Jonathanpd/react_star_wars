@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import UserContext from '../UserContext';
 /* Imgs */
 import {ReactComponent as ArrowBack} from '../../img/arrow_back.svg';
 import luke_skywalker from '../../img/luke_skywalker.svg';
@@ -10,6 +8,10 @@ import { ThemeProvider } from "styled-components";
 import { lukeTheme, darthTheme } from "./theme";
 import GlobalTheme from "./globals";
 import { Nav, Back, Container, ButtonChange, Img, Title, Bold } from './style.js';
+/* Others */
+import { Link } from 'react-router-dom';
+import UserContext from '../UserContext';
+
 
 const Result = () => {
     const { request, force, loading, error } = React.useContext(UserContext);
@@ -31,7 +33,7 @@ const Result = () => {
     else 
         document.body.style.cursor = "auto";
     if (force || theme)
-    
+
     return (
     <ThemeProvider theme={theme === "Luke Skywalker" ? lukeTheme : darthTheme}>
     <React.Fragment>

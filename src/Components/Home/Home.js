@@ -1,8 +1,6 @@
 import React from 'react';
-//import React, { Component } from 'react';
 import styles from './Home.module.scss';
 import { Link } from 'react-router-dom';
-//import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import UserContext from '../UserContext';
 
 const Home = () => {
