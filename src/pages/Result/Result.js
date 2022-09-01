@@ -9,7 +9,7 @@ import darth_vader from '../../img/darth_vader.png';
 /* CSS */
 import { ThemeProvider } from "styled-components";
 import { lukeTheme, darthTheme } from "./theme";
-import GlobalTheme from "./globals";
+import GlobalTheme from "./generalResultStyles";
 import { Nav, Back, Container, ButtonChange, Img, Title, Bold } from './style.js';
 
 /* Others */
