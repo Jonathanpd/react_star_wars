@@ -1,9 +1,12 @@
 //import React, { useState } from 'react';
 import React from 'react';
-import './App.scss';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './Components/Home/Home';
-import Result from './Components/Result/Result';
+
+import './App.scss';
+
+import Home from './pages/Home/Home';
+import Result from './pages/Result/Result';
+
 import useFetchForce from './Components/useFetchForce';
 import UserContext from './Components/UserContext';
 

@@ -1,7 +1,8 @@
 import React from 'react';
-import styles from './Home.module.scss';
 import { Link } from 'react-router-dom';
-import UserContext from '../UserContext';
+
+import styles from '../../Home.module.scss';
+import UserContext from '../../Components/UserContext';
 
 const Home = () => {
     const { request, force } = React.useContext(UserContext);

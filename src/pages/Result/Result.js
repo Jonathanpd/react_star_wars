@@ -1,15 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 /* Imgs */
 import {ReactComponent as ArrowBack} from '../../img/arrow_back.svg';
 import luke_skywalker from '../../img/luke_skywalker.svg';
 import darth_vader from '../../img/darth_vader.png';
+
 /* CSS */
 import { ThemeProvider } from "styled-components";
 import { lukeTheme, darthTheme } from "./theme";
 import GlobalTheme from "./globals";
 import { Nav, Back, Container, ButtonChange, Img, Title, Bold } from './style.js';
+
 /* Others */
-import { Link } from 'react-router-dom';
 import UserContext from '../UserContext';
 
 
