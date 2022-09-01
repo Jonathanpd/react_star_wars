@@ -13,7 +13,7 @@ import GlobalTheme from "./globals";
 import { Nav, Back, Container, ButtonChange, Img, Title, Bold } from './style.js';
 
 /* Others */
-import UserContext from '../UserContext';
+import UserContext from '../../Components/UserContext';
 
 
 const Result = () => {
